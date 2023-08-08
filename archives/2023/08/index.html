@@ -20,7 +20,7 @@
   
   
     <script>
-        var themeModelId = '2';
+        var themeModelId = '3';
         if (themeModelId) {
             localStorage.setItem('modelId', themeModelId);
         }
@@ -84,8 +84,10 @@
   <!-- 页面预加载动画 -->
 
   
-    <div class="preloader_2" id="loader">
-  <div class="loader"></div>
+    <div class="preloader_3" id="loader">
+  <div class="bar">
+    <div class="ball"></div>
+  </div>
 </div>
 
   
@@ -368,7 +370,7 @@
         <!-- 内容区域 -->
         <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
 <div class="bg-light-floor-archive" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
-<div class="archive-header" style="background-image:url('https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c')">
+<div class="archive-header" style="background-image:url('/archive.jpg')">
   <div class="archive-header-title">
     archive
   </div>
@@ -379,7 +381,7 @@
   function typedFn() {
     const el = '#archive-header-desc';
     const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '你又不知道那是谁的梦啊'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
@@ -410,7 +412,7 @@
   function typedFn() {
     const el = '#archive-video-header-desc';
     const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
+    let desc = '你又不知道那是谁的梦啊'
     var typed = new Typed(el, {
       strings: [desc],
       startDelay: 100,
