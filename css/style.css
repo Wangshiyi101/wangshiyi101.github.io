@@ -2607,7 +2607,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   word-break: break-all;
 }
 .bg-light-floor-archive {
-  background: ;
+  background: url("https://raw.githubusercontent.com/Wangshiyi101/wangshiyi101.github.io/master/medias/archiv_bg.png");
   background-size: cover;
   background-position: center center;
 }
