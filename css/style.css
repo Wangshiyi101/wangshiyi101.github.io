@@ -2828,7 +2828,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   line-height: 18px;
 }
 .bg-light-floor-tagDetail {
-  background: ;
+  background: url("https://raw.githubusercontent.com/Wangshiyi101/wangshiyi101.github.io/master/medias/archiv_bg.png");
   background-size: cover;
   background-position: center center;
 }
@@ -2836,6 +2836,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   position: relative;
   width: 100%;
   height: 60vh;
+  height: 100vh;
   overflow: hidden;
   background-size: cover;
   background-position: center center;
@@ -2951,7 +2952,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   border-radius: 10px;
 }
 .bg-light-floor-categoryDetail {
-  background: ;
+  background: url("https://raw.githubusercontent.com/Wangshiyi101/wangshiyi101.github.io/master/medias/archiv_bg.png");
   background-size: cover;
   background-position: center center;
 }
@@ -2959,6 +2960,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   position: relative;
   width: 100%;
   height: 60vh;
+  height: 100vh;
   overflow: hidden;
   background-size: cover;
   background-position: center center;
